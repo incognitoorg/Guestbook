@@ -36,7 +36,7 @@
       pageContext.setAttribute("user", user);
 %>
 	<p>
-		Hello, <%= user.getNickname() %> (You can <a
+		Welcome to Guestbook <%= user.getNickname() %> (You can <a
 			href="<%= userService.createLogoutURL(request.getRequestURI()) %>">sign
 			out</a>.)
 	</p>
